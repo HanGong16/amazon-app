@@ -193,3 +193,27 @@ header{
 .box-col a:hover{
     text-decoration: underline;
 }
+/* products-slider */
+.products-slider{
+    background:#fff;
+    padding:20px;
+    margin:0 30px;
+    margin-bottom: 15px;
+}
+.products-slider .products{
+    display: flex;
+    overflow-x: auto;
+    gap:20px;
+    margin-top:10px;
+
+}
+.products-slider h1{
+    color:#131921;
+}
+.products-slider .products img{
+    max-width: 200px;
+    max-height: 200;
+}
+.products-slider .products::-webkit-scrollbar{
+    display: none;
+}
