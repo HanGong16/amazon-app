@@ -265,3 +265,11 @@ header{
     font-weight: 400;
 }
 
+footer{
+    background-color:#131921;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px 60px;
+    color:#fff;
+}
