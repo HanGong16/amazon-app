@@ -162,4 +162,34 @@ header{
 .control_next{
     right:0;
 }
+/* .box-row */
+.box-row{
+    display: flex;
+    row-gap:20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:20px 30px;
+}
+.box-col{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    padding:15px 20px;
+    background-color:#fff;
+    max-width: 24%;
+    min-height: 200px;
+    z-index: 1;
+}
 
+.box-col h3{
+    text-align: center;
+    color:#131921;
+}
+.box-col a{
+    font-size:13px;
+    color: #007185;
+    font-weight: 500;
+}
+.box-col a:hover{
+    text-decoration: underline;
+}
