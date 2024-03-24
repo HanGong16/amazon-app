@@ -47,4 +47,12 @@ next_btn.addEventListener('click', (e) => {
     n = 0;
   }
   chageImgs();
-  
+});
+// prodcuts slider
+const prodcutsSlider = document.querySelectorAll('.products');
+for (const item of prodcutsSlider) {
+  item.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    item.scrollLeft += e.deltaY;
+  });
+}
